@@ -1,0 +1,231 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\UnityProjects\\Hide and Seek Multiplayer game\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{333BCB16-545A-A08C-6F35-7BD954168291}|Assembly-CSharp.csproj|e:\\unityprojects\\hide and seek multiplayer game\\assets\\scripts\\customnetworkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{333BCB16-545A-A08C-6F35-7BD954168291}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\customnetworkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{333BCB16-545A-A08C-6F35-7BD954168291}|Assembly-CSharp.csproj|E:\\UnityProjects\\Hide and Seek Multiplayer game\\assets\\scripts\\playerobjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{333BCB16-545A-A08C-6F35-7BD954168291}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerobjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{333BCB16-545A-A08C-6F35-7BD954168291}|Assembly-CSharp.csproj|E:\\UnityProjects\\Hide and Seek Multiplayer game\\assets\\scripts\\lobbycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{333BCB16-545A-A08C-6F35-7BD954168291}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lobbycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{333BCB16-545A-A08C-6F35-7BD954168291}|Assembly-CSharp.csproj|E:\\UnityProjects\\Hide and Seek Multiplayer game\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{333BCB16-545A-A08C-6F35-7BD954168291}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{333BCB16-545A-A08C-6F35-7BD954168291}|Assembly-CSharp.csproj|E:\\UnityProjects\\Hide and Seek Multiplayer game\\assets\\scripts\\playerspawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{333BCB16-545A-A08C-6F35-7BD954168291}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerspawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{333BCB16-545A-A08C-6F35-7BD954168291}|Assembly-CSharp.csproj|E:\\UnityProjects\\Hide and Seek Multiplayer game\\assets\\scripts\\steamlobby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{333BCB16-545A-A08C-6F35-7BD954168291}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\steamlobby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{333BCB16-545A-A08C-6F35-7BD954168291}|Assembly-CSharp.csproj|E:\\UnityProjects\\Hide and Seek Multiplayer game\\assets\\scripts\\playerlistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{333BCB16-545A-A08C-6F35-7BD954168291}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerlistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{333BCB16-545A-A08C-6F35-7BD954168291}|Assembly-CSharp.csproj|E:\\UnityProjects\\Hide and Seek Multiplayer game\\assets\\scripts\\customauthenticator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{333BCB16-545A-A08C-6F35-7BD954168291}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\customauthenticator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{333BCB16-545A-A08C-6F35-7BD954168291}|Assembly-CSharp.csproj|E:\\UnityProjects\\Hide and Seek Multiplayer game\\assets\\scripts\\startgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{333BCB16-545A-A08C-6F35-7BD954168291}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\startgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{333BCB16-545A-A08C-6F35-7BD954168291}|Assembly-CSharp.csproj|E:\\UnityProjects\\Hide and Seek Multiplayer game\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{333BCB16-545A-A08C-6F35-7BD954168291}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{333BCB16-545A-A08C-6F35-7BD954168291}|Assembly-CSharp.csproj|E:\\UnityProjects\\Hide and Seek Multiplayer game\\assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{333BCB16-545A-A08C-6F35-7BD954168291}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{333BCB16-545A-A08C-6F35-7BD954168291}|Assembly-CSharp.csproj|E:\\UnityProjects\\Hide and Seek Multiplayer game\\assets\\input\\userinputs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{333BCB16-545A-A08C-6F35-7BD954168291}|Assembly-CSharp.csproj|solutionrelative:assets\\input\\userinputs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{333BCB16-545A-A08C-6F35-7BD954168291}|Assembly-CSharp.csproj|E:\\UnityProjects\\Hide and Seek Multiplayer game\\assets\\input\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{333BCB16-545A-A08C-6F35-7BD954168291}|Assembly-CSharp.csproj|solutionrelative:assets\\input\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlayerListItem.cs",
+              "DocumentMoniker": "E:\\UnityProjects\\Hide and Seek Multiplayer game\\Assets\\Scripts\\PlayerListItem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerListItem.cs",
+              "ToolTip": "E:\\UnityProjects\\Hide and Seek Multiplayer game\\Assets\\Scripts\\PlayerListItem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerListItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T16:04:18.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomAuthenticator.cs",
+              "DocumentMoniker": "E:\\UnityProjects\\Hide and Seek Multiplayer game\\Assets\\Scripts\\CustomAuthenticator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CustomAuthenticator.cs",
+              "ToolTip": "E:\\UnityProjects\\Hide and Seek Multiplayer game\\Assets\\Scripts\\CustomAuthenticator.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CustomAuthenticator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T14:42:28.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "E:\\UnityProjects\\Hide and Seek Multiplayer game\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "E:\\UnityProjects\\Hide and Seek Multiplayer game\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T19:02:37.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerSpawn.cs",
+              "DocumentMoniker": "E:\\UnityProjects\\Hide and Seek Multiplayer game\\Assets\\Scripts\\PlayerSpawn.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerSpawn.cs",
+              "ToolTip": "E:\\UnityProjects\\Hide and Seek Multiplayer game\\Assets\\Scripts\\PlayerSpawn.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerSpawn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T18:59:06.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StartGame.cs",
+              "DocumentMoniker": "E:\\UnityProjects\\Hide and Seek Multiplayer game\\Assets\\Scripts\\StartGame.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StartGame.cs",
+              "ToolTip": "E:\\UnityProjects\\Hide and Seek Multiplayer game\\Assets\\Scripts\\StartGame.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StartGame.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T19:32:16.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "E:\\UnityProjects\\Hide and Seek Multiplayer game\\Assets\\Scripts\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIManager.cs",
+              "ToolTip": "E:\\UnityProjects\\Hide and Seek Multiplayer game\\Assets\\Scripts\\UIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T16:54:48.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LobbyController.cs",
+              "DocumentMoniker": "E:\\UnityProjects\\Hide and Seek Multiplayer game\\Assets\\Scripts\\LobbyController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LobbyController.cs",
+              "ToolTip": "E:\\UnityProjects\\Hide and Seek Multiplayer game\\Assets\\Scripts\\LobbyController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LobbyController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAcwIUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T14:01:23.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SteamLobby.cs",
+              "DocumentMoniker": "E:\\UnityProjects\\Hide and Seek Multiplayer game\\Assets\\Scripts\\SteamLobby.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SteamLobby.cs",
+              "ToolTip": "E:\\UnityProjects\\Hide and Seek Multiplayer game\\Assets\\Scripts\\SteamLobby.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SteamLobby.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA5wDsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T13:40:12.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomNetworkManager.cs",
+              "DocumentMoniker": "E:\\UnityProjects\\Hide and Seek Multiplayer game\\Assets\\Scripts\\CustomNetworkManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CustomNetworkManager.cs",
+              "ToolTip": "E:\\UnityProjects\\Hide and Seek Multiplayer game\\Assets\\Scripts\\CustomNetworkManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CustomNetworkManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T13:29:48.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerObjectController.cs",
+              "DocumentMoniker": "E:\\UnityProjects\\Hide and Seek Multiplayer game\\Assets\\Scripts\\PlayerObjectController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerObjectController.cs",
+              "ToolTip": "E:\\UnityProjects\\Hide and Seek Multiplayer game\\Assets\\Scripts\\PlayerObjectController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerObjectController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAmwCUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T13:19:22.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "E:\\UnityProjects\\Hide and Seek Multiplayer game\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "E:\\UnityProjects\\Hide and Seek Multiplayer game\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T14:51:55.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "InputManager.cs",
+              "DocumentMoniker": "E:\\UnityProjects\\Hide and Seek Multiplayer game\\Assets\\Input\\InputManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Input\\InputManager.cs",
+              "ToolTip": "E:\\UnityProjects\\Hide and Seek Multiplayer game\\Assets\\Input\\InputManager.cs",
+              "RelativeToolTip": "Assets\\Input\\InputManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T14:28:23.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserInputs.cs",
+              "DocumentMoniker": "E:\\UnityProjects\\Hide and Seek Multiplayer game\\Assets\\Input\\UserInputs.cs",
+              "RelativeDocumentMoniker": "Assets\\Input\\UserInputs.cs",
+              "ToolTip": "E:\\UnityProjects\\Hide and Seek Multiplayer game\\Assets\\Input\\UserInputs.cs",
+              "RelativeToolTip": "Assets\\Input\\UserInputs.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAmwBUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T14:28:18.093Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
