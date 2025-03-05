@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9A7EBE0D-D41C-E430-6090-1DA50B6AB3E6}</ProjectGuid>
+    <ProjectGuid>{B731AD88-F672-C69E-8880-082BB7F37C44}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Collections</AssemblyName>
@@ -935,15 +935,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Burst.Player.csproj">
-      <Project>{F95F61B7-49DA-B22C-1776-643D796F6239}</Project>
+      <Project>{56474D32-CE63-4E44-C863-DB23B054B931}</Project>
       <Name>Unity.Burst.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.Player.csproj">
-      <Project>{0892D8D9-7C9C-3D4B-77E9-82BCC93A7CDF}</Project>
+      <Project>{58C1A110-23B4-398D-D6A7-99E3101497A0}</Project>
       <Name>Unity.Mathematics.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{1BE530DC-B85B-8CD2-7669-BA892AA2EC79}</Project>
+      <Project>{48BE99AF-0A65-792D-38FC-1D697995094C}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

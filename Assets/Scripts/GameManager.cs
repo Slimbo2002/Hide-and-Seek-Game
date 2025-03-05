@@ -3,6 +3,8 @@ using Mirror;
 using System.Collections;
 public class GameManager : NetworkBehaviour
 {
+    public static GameManager instance;
+
     public Transform hiderSpawn, seekerSpawn;
     bool isSpawned;
 
@@ -16,6 +18,14 @@ public class GameManager : NetworkBehaviour
                 return networkManager;
             }
             return networkManager = CustomNetworkManager.singleton as CustomNetworkManager;
+        }
+    }
+
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
         }
     }
 
@@ -38,7 +48,7 @@ public class GameManager : NetworkBehaviour
 
             if (player.connectionToClient != null)
             {
-                player.GetComponent<PlayerSpawn>().TargetSetSpawn(player.connectionToClient, spawn);
+                player.GetComponent<PlayerSpawn>().TargetSetSpawn(spawn);
             }
         }
     }

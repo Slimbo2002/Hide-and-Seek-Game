@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>Unity.Multiplayer.Tools.NetVis.Configuration</RootNamespace>
-    <ProjectGuid>{6EEBFADB-2E28-5C7E-7D3D-96605AD94E01}</ProjectGuid>
+    <ProjectGuid>{D2306B99-845E-AD97-DAC1-47B399B06546}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Multiplayer.Tools.NetVis.Configuration</AssemblyName>
@@ -878,23 +878,23 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Multiplayer.Tools.Common.Player.csproj">
-      <Project>{17FF7233-8DB1-4933-72E7-E7990070B133}</Project>
+      <Project>{4AE08BE6-AF2C-0755-EB16-7E8873B96F3F}</Project>
       <Name>Unity.Multiplayer.Tools.Common.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Multiplayer.Tools.Adapters.Player.csproj">
-      <Project>{FF58D836-2C46-93BF-3A80-A9D5AA05E2BC}</Project>
+      <Project>{1C61D500-F586-74E3-0431-712F010C7B26}</Project>
       <Name>Unity.Multiplayer.Tools.Adapters.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Burst.Player.csproj">
-      <Project>{F95F61B7-49DA-B22C-1776-643D796F6239}</Project>
+      <Project>{56474D32-CE63-4E44-C863-DB23B054B931}</Project>
       <Name>Unity.Burst.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.Player.csproj">
-      <Project>{0892D8D9-7C9C-3D4B-77E9-82BCC93A7CDF}</Project>
+      <Project>{58C1A110-23B4-398D-D6A7-99E3101497A0}</Project>
       <Name>Unity.Mathematics.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{1BE530DC-B85B-8CD2-7669-BA892AA2EC79}</Project>
+      <Project>{48BE99AF-0A65-792D-38FC-1D697995094C}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

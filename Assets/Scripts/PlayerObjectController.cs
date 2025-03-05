@@ -13,6 +13,8 @@ public class PlayerObjectController : NetworkBehaviour
 
     [SyncVar] public bool isSeeker;
 
+    Rigidbody rb;
+
     CustomNetworkManager networkManager;
     CustomNetworkManager NetworkManager
     {
@@ -24,6 +26,11 @@ public class PlayerObjectController : NetworkBehaviour
             }
             return networkManager = CustomNetworkManager.singleton as CustomNetworkManager;
         }
+    }
+
+    private void Start()
+    {
+        
     }
 
     public override void OnStartAuthority()
@@ -42,8 +49,24 @@ public class PlayerObjectController : NetworkBehaviour
     public override void OnStartClient()
     {
         NetworkManager.gamePlayer.Add(this);
+        rb = GetComponent<Rigidbody>();
         LobbyController.instance.UpdateLobbyName();
         LobbyController.instance.UpdatePlayerList();
+
+        if (SceneManager.GetActiveScene().name == "HouseMap")
+        {
+            if (isSeeker)
+            {
+                rb.linearVelocity = Vector3.zero; // Reset any movement forces
+                rb.angularVelocity = Vector3.zero; // Reset rotation forces
+                rb.isKinematic = true; // Fully disable physics
+
+
+                transform.position = GameManager.instance.seekerSpawn.transform.position; // Manually set position
+                rb.isKinematic = false; // Re-enable physics
+
+            }
+        }
     }
 
     public override void OnStopClient()

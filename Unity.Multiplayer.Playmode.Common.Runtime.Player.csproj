@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>Unity.Multiplayer.PlayMode.Common.Runtime</RootNamespace>
-    <ProjectGuid>{9E893FDB-BEE4-78D2-1DA6-7CAF8CA4A128}</ProjectGuid>
+    <ProjectGuid>{CED3DDDB-E5BE-1D04-E3A2-0411CAA485C6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Multiplayer.Playmode.Common.Runtime</AssemblyName>
@@ -847,7 +847,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{1BE530DC-B85B-8CD2-7669-BA892AA2EC79}</Project>
+      <Project>{48BE99AF-0A65-792D-38FC-1D697995094C}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

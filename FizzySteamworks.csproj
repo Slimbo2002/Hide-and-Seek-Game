@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{CF85E666-B50A-E0C8-FBA6-8F3B55879193}</ProjectGuid>
+    <ProjectGuid>{5B5D1605-8C7B-D137-DF38-C09442FA2F9F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>FizzySteamworks</AssemblyName>
@@ -1112,19 +1112,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="com.rlabrecque.steamworks.net.csproj">
-      <Project>{8E9E3ACF-1BE1-0968-3B16-74EE062E44BF}</Project>
+      <Project>{063F022B-097E-F5F1-B5F3-CD2AE2CFE87A}</Project>
       <Name>com.rlabrecque.steamworks.net</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.csproj">
-      <Project>{49AF529A-2C94-3287-09C3-A19B6E7D3CD1}</Project>
+      <Project>{EFEF5F4B-11D8-0E1F-5BD9-51F053691E5F}</Project>
       <Name>Mirror</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{2D6A4187-1860-659C-59FC-C8BE497DD830}</Project>
+      <Project>{D232F447-9F3C-700E-6E3E-F810988D7B07}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{EDBC09FD-6C65-6583-7681-B52CB6F3BF9B}</Project>
+      <Project>{594D8F85-6F24-D5C1-8D69-B029ED6687E8}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

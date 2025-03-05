@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>Unity.Multiplayer.PlayMode.Scenarios.Editor</RootNamespace>
-    <ProjectGuid>{55695615-1BAD-EFE7-28CD-DCFD9CEF37FB}</ProjectGuid>
+    <ProjectGuid>{93DF10EB-E8D4-FED4-DEAA-29EF5E35323A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Multiplayer.PlayMode.Scenarios.Editor</AssemblyName>
@@ -1178,39 +1178,39 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Multiplayer.PlayMode.Editor.Bridge.csproj">
-      <Project>{93049A62-5E4B-0FE8-A590-504648B507FE}</Project>
+      <Project>{9D6EF96B-91A4-2304-A5EC-2FD40A65A94B}</Project>
       <Name>Unity.Multiplayer.PlayMode.Editor.Bridge</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Multiplayer.PlayMode.Configurations.Editor.csproj">
-      <Project>{5CECC7A9-2850-91CD-C092-523E530B71E6}</Project>
+      <Project>{882A5E45-7F20-8CA0-5756-B76BC192D114}</Project>
       <Name>Unity.Multiplayer.PlayMode.Configurations.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Multiplayer.Playmode.Workflow.Editor.csproj">
-      <Project>{C0B994A2-6C1B-144B-FA0F-903F3E218D08}</Project>
+      <Project>{22035A88-1768-81B4-ED0C-9E2D55345E08}</Project>
       <Name>Unity.Multiplayer.Playmode.Workflow.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Multiplayer.Playmode.Common.Editor.csproj">
-      <Project>{2D6EBC84-A871-A63B-1533-FC3003AF71A6}</Project>
+      <Project>{E048B282-5E07-6B17-FC36-EAD36E4A2099}</Project>
       <Name>Unity.Multiplayer.Playmode.Common.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Multiplayer.Playmode.VirtualProjects.Editor.csproj">
-      <Project>{23E71EF1-9423-EC91-9CCB-E675074BD355}</Project>
+      <Project>{4772C52D-8D2B-DAA6-4F1D-3F71AEEF2F6C}</Project>
       <Name>Unity.Multiplayer.Playmode.VirtualProjects.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{2D6A4187-1860-659C-59FC-C8BE497DD830}</Project>
+      <Project>{D232F447-9F3C-700E-6E3E-F810988D7B07}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{EDBC09FD-6C65-6583-7681-B52CB6F3BF9B}</Project>
+      <Project>{594D8F85-6F24-D5C1-8D69-B029ED6687E8}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{5879941D-F6C6-2E9A-6E33-91D54D70EB92}</Project>
+      <Project>{A9F7B8B0-E76B-A71C-A020-00A98C1619D4}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{D1EA392A-76C4-9D63-7795-8322D9903A41}</Project>
+      <Project>{2B98296B-43FB-2376-75EC-6AE82388D581}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

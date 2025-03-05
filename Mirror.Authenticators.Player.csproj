@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1A8AD70E-5EB3-5D7A-062E-D7911AC383E9}</ProjectGuid>
+    <ProjectGuid>{17A367E4-CD1A-D384-A7A1-F4EBB60D1443}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Mirror.Authenticators</AssemblyName>
@@ -868,11 +868,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Mirror.Player.csproj">
-      <Project>{FA9F14A5-A147-8D8B-6C62-E00DD9B031BF}</Project>
+      <Project>{CE836AA1-5CBB-77C7-B4CD-2ADCA70DBE03}</Project>
       <Name>Mirror.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{1BE530DC-B85B-8CD2-7669-BA892AA2EC79}</Project>
+      <Project>{48BE99AF-0A65-792D-38FC-1D697995094C}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

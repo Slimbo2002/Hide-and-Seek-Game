@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>Unity.Multiplayer.Tools.NetStatsMonitor</RootNamespace>
-    <ProjectGuid>{43658AB2-66FD-73B7-FCA0-9FF2936E7196}</ProjectGuid>
+    <ProjectGuid>{D7059428-D68C-CF5F-F349-18AB2CE83231}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Multiplayer.Tools.NetStatsMonitor.Configuration</AssemblyName>
@@ -1118,23 +1118,23 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Multiplayer.Tools.Common.csproj">
-      <Project>{09C0DDBE-1282-F631-ACBC-E58962CFB38F}</Project>
+      <Project>{46DDCEDD-AB1D-713C-0ABF-97A8BD4C1BA6}</Project>
       <Name>Unity.Multiplayer.Tools.Common</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Multiplayer.Tools.MetricTypes.csproj">
-      <Project>{3F2015B9-9172-341F-FDE8-152658082721}</Project>
+      <Project>{174518DE-8092-FC54-280F-23881B60C4D9}</Project>
       <Name>Unity.Multiplayer.Tools.MetricTypes</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Multiplayer.Tools.NetStats.csproj">
-      <Project>{6B06F44D-C87D-413F-86CE-13B5C41AAC08}</Project>
+      <Project>{A8CCC7AC-6BF7-8BA5-B6CA-63455990F108}</Project>
       <Name>Unity.Multiplayer.Tools.NetStats</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{2D6A4187-1860-659C-59FC-C8BE497DD830}</Project>
+      <Project>{D232F447-9F3C-700E-6E3E-F810988D7B07}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{EDBC09FD-6C65-6583-7681-B52CB6F3BF9B}</Project>
+      <Project>{594D8F85-6F24-D5C1-8D69-B029ED6687E8}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B6DAF4D3-B105-4578-1CA7-D677F4D4D9FE}</ProjectGuid>
+    <ProjectGuid>{3E46441E-AA69-634D-E240-577CE493B233}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Mirror.Examples</AssemblyName>
@@ -1033,23 +1033,23 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Mirror.Player.csproj">
-      <Project>{FA9F14A5-A147-8D8B-6C62-E00DD9B031BF}</Project>
+      <Project>{CE836AA1-5CBB-77C7-B4CD-2ADCA70DBE03}</Project>
       <Name>Mirror.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.Components.Player.csproj">
-      <Project>{7D489082-033A-B57E-651E-D1A1B249C748}</Project>
+      <Project>{92FA126A-218E-3245-625D-AF05A85CBA36}</Project>
       <Name>Mirror.Components.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.Transports.Player.csproj">
-      <Project>{FA053320-EADF-333F-7C4F-CF3E7EFA3794}</Project>
+      <Project>{92B9E410-BC0B-EC76-4485-1241B69CF1FF}</Project>
       <Name>Mirror.Transports.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Player.csproj">
-      <Project>{DEEA110E-73AF-6674-C959-4A38EAA63EDD}</Project>
+      <Project>{CB0FD846-19A6-066C-11C5-7BC425976E27}</Project>
       <Name>Unity.TextMeshPro.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{1BE530DC-B85B-8CD2-7669-BA892AA2EC79}</Project>
+      <Project>{48BE99AF-0A65-792D-38FC-1D697995094C}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

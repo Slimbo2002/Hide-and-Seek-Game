@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>Unity.Multiplayer.Tools.NetworkProfiler.Runtime</RootNamespace>
-    <ProjectGuid>{B23E441C-9126-FA5C-9068-399C10FADA16}</ProjectGuid>
+    <ProjectGuid>{284894CD-8D63-3DC9-B2F9-8320F91E42D0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Multiplayer.Tools.NetworkProfiler.Runtime</AssemblyName>
@@ -1113,27 +1113,27 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Multiplayer.Tools.Adapters.csproj">
-      <Project>{989E19AC-5F08-E24A-6F7E-A14611D79CDB}</Project>
+      <Project>{4FD54EC6-8814-DF91-ED5A-0600D419F59C}</Project>
       <Name>Unity.Multiplayer.Tools.Adapters</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Multiplayer.Tools.MetricTypes.csproj">
-      <Project>{3F2015B9-9172-341F-FDE8-152658082721}</Project>
+      <Project>{174518DE-8092-FC54-280F-23881B60C4D9}</Project>
       <Name>Unity.Multiplayer.Tools.MetricTypes</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Multiplayer.Tools.NetStats.csproj">
-      <Project>{6B06F44D-C87D-413F-86CE-13B5C41AAC08}</Project>
+      <Project>{A8CCC7AC-6BF7-8BA5-B6CA-63455990F108}</Project>
       <Name>Unity.Multiplayer.Tools.NetStats</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Profiling.Core.csproj">
-      <Project>{2DB41FB1-A036-86C3-59B2-8D0C1CC0C6BD}</Project>
+      <Project>{9B37F947-4E49-2043-877D-BD04A05846E8}</Project>
       <Name>Unity.Profiling.Core</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{2D6A4187-1860-659C-59FC-C8BE497DD830}</Project>
+      <Project>{D232F447-9F3C-700E-6E3E-F810988D7B07}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{EDBC09FD-6C65-6583-7681-B52CB6F3BF9B}</Project>
+      <Project>{594D8F85-6F24-D5C1-8D69-B029ED6687E8}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

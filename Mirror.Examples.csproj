@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F3A71B62-7067-89FC-EEFE-2E5721BB27EE}</ProjectGuid>
+    <ProjectGuid>{EC546B99-7FF3-34A8-F1BB-C9C644B099A7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Mirror.Examples</AssemblyName>
@@ -1269,27 +1269,27 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Mirror.csproj">
-      <Project>{49AF529A-2C94-3287-09C3-A19B6E7D3CD1}</Project>
+      <Project>{EFEF5F4B-11D8-0E1F-5BD9-51F053691E5F}</Project>
       <Name>Mirror</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.Components.csproj">
-      <Project>{B8E25A24-E2AF-B0C7-43B0-AFB7D2189D5D}</Project>
+      <Project>{829B873D-A1C3-AAEF-631C-F93D2535AA91}</Project>
       <Name>Mirror.Components</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.Transports.csproj">
-      <Project>{4AC935B2-211E-2618-BD24-CD4181E8A947}</Project>
+      <Project>{94A00305-FEAC-A034-A19E-05BE4BBECA86}</Project>
       <Name>Mirror.Transports</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{E17932EE-F9DA-2B05-46A4-BA46B2F0CA7D}</Project>
+      <Project>{4CA10E3B-B7ED-76E1-4D70-B3CABB9A08F3}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{2D6A4187-1860-659C-59FC-C8BE497DD830}</Project>
+      <Project>{D232F447-9F3C-700E-6E3E-F810988D7B07}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{EDBC09FD-6C65-6583-7681-B52CB6F3BF9B}</Project>
+      <Project>{594D8F85-6F24-D5C1-8D69-B029ED6687E8}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F07A02AD-AB39-BF1A-5F3C-F3C226D3EF6C}</ProjectGuid>
+    <ProjectGuid>{2F697ACA-C986-0E40-CDB3-DBC7B107B483}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Multiplayer.Playmode</AssemblyName>
@@ -1103,23 +1103,23 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Multiplayer.Playmode.VirtualProjects.Editor.csproj">
-      <Project>{23E71EF1-9423-EC91-9CCB-E675074BD355}</Project>
+      <Project>{4772C52D-8D2B-DAA6-4F1D-3F71AEEF2F6C}</Project>
       <Name>Unity.Multiplayer.Playmode.VirtualProjects.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Multiplayer.Playmode.Workflow.Editor.csproj">
-      <Project>{C0B994A2-6C1B-144B-FA0F-903F3E218D08}</Project>
+      <Project>{22035A88-1768-81B4-ED0C-9E2D55345E08}</Project>
       <Name>Unity.Multiplayer.Playmode.Workflow.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Multiplayer.Playmode.Common.Runtime.csproj">
-      <Project>{A1D9D0DD-60FF-3E77-7153-29A5CA51A472}</Project>
+      <Project>{627A3DD7-CCB0-3210-418D-C201D5EB4940}</Project>
       <Name>Unity.Multiplayer.Playmode.Common.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{2D6A4187-1860-659C-59FC-C8BE497DD830}</Project>
+      <Project>{D232F447-9F3C-700E-6E3E-F810988D7B07}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{EDBC09FD-6C65-6583-7681-B52CB6F3BF9B}</Project>
+      <Project>{594D8F85-6F24-D5C1-8D69-B029ED6687E8}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

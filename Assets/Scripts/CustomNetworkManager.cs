@@ -16,6 +16,8 @@ public class CustomNetworkManager : NetworkManager
 
     public Transform seekerSpawn;
 
+
+
     public override void OnServerAddPlayer(NetworkConnectionToClient conn)
     {
         base.OnServerAddPlayer(conn);
@@ -30,16 +32,6 @@ public class CustomNetworkManager : NetworkManager
         {
             gamePlayerInstance.isSeeker = authData;
         }
-
-        if(SceneManager.GetActiveScene().name == "HouseMap")
-        {
-            if (gamePlayerInstance.isSeeker)
-            {
-                StartCoroutine(DelayedSpawn(gamePlayerInstance, conn));
-            }
-        }
-        
-
     }
 
     [Server]
@@ -83,12 +75,6 @@ public class CustomNetworkManager : NetworkManager
                 gamePlayer[i].RPCAnnounce("You are a Hider");
             }
         }
-    }
-
-    public IEnumerator DelayedSpawn(PlayerObjectController gamePlayerInstance, NetworkConnectionToClient conn)
-    {
-        yield return new WaitForSeconds(.1f);
-        gamePlayerInstance.GetComponent<PlayerSpawn>().TargetSetSpawn(conn, seekerSpawn);
     }
 
 }

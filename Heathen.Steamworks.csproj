@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>HeathenEngieering.SteamworksIntegration</RootNamespace>
-    <ProjectGuid>{037F805D-56A3-F9DA-6B1E-1C3326B42203}</ProjectGuid>
+    <ProjectGuid>{C26030B2-A804-D1D6-8DA9-569A33EFD5D4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Heathen.Steamworks</AssemblyName>
@@ -1364,31 +1364,31 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Mathematics.csproj">
-      <Project>{1541FA66-C3FD-46FB-9721-C704E88EBE1D}</Project>
+      <Project>{59C6B1F3-1172-216A-9442-8EF24BD1CF13}</Project>
       <Name>Unity.Mathematics</Name>
     </ProjectReference>
     <ProjectReference Include="Heathen.Core.csproj">
-      <Project>{77FCB356-7C00-9119-49EA-76E2B5201CE5}</Project>
+      <Project>{4D6742AA-4580-B6DD-EA51-DE3FBBC86646}</Project>
       <Name>Heathen.Core</Name>
     </ProjectReference>
     <ProjectReference Include="com.rlabrecque.steamworks.net.csproj">
-      <Project>{8E9E3ACF-1BE1-0968-3B16-74EE062E44BF}</Project>
+      <Project>{063F022B-097E-F5F1-B5F3-CD2AE2CFE87A}</Project>
       <Name>com.rlabrecque.steamworks.net</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{E17932EE-F9DA-2B05-46A4-BA46B2F0CA7D}</Project>
+      <Project>{4CA10E3B-B7ED-76E1-4D70-B3CABB9A08F3}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InputSystem.csproj">
-      <Project>{F492F7A5-F432-E17E-E503-876590272DDC}</Project>
+      <Project>{E7DB533E-5AF5-ED0B-69C4-25603BD06581}</Project>
       <Name>Unity.InputSystem</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{2D6A4187-1860-659C-59FC-C8BE497DD830}</Project>
+      <Project>{D232F447-9F3C-700E-6E3E-F810988D7B07}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{EDBC09FD-6C65-6583-7681-B52CB6F3BF9B}</Project>
+      <Project>{594D8F85-6F24-D5C1-8D69-B029ED6687E8}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

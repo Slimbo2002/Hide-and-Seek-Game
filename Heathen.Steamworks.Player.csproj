@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>HeathenEngieering.SteamworksIntegration</RootNamespace>
-    <ProjectGuid>{D9A15095-7D3C-836E-9FCB-5A816FBC0B24}</ProjectGuid>
+    <ProjectGuid>{DB2D41A7-9EB3-46FC-A048-7A7A1B7CFD94}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Heathen.Steamworks</AssemblyName>
@@ -1128,27 +1128,27 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Mathematics.Player.csproj">
-      <Project>{0892D8D9-7C9C-3D4B-77E9-82BCC93A7CDF}</Project>
+      <Project>{58C1A110-23B4-398D-D6A7-99E3101497A0}</Project>
       <Name>Unity.Mathematics.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Heathen.Core.Player.csproj">
-      <Project>{6AF39763-A1EB-2FF3-9803-D9595583F9DE}</Project>
+      <Project>{622D8D03-E15D-376B-1E2B-CA3F61E681AD}</Project>
       <Name>Heathen.Core.Player</Name>
     </ProjectReference>
     <ProjectReference Include="com.rlabrecque.steamworks.net.Player.csproj">
-      <Project>{6635901F-D8B8-C77A-A74F-67205275E2D1}</Project>
+      <Project>{121306F4-91B9-CF6E-D269-613F7DAA06E8}</Project>
       <Name>com.rlabrecque.steamworks.net.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Player.csproj">
-      <Project>{DEEA110E-73AF-6674-C959-4A38EAA63EDD}</Project>
+      <Project>{CB0FD846-19A6-066C-11C5-7BC425976E27}</Project>
       <Name>Unity.TextMeshPro.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InputSystem.Player.csproj">
-      <Project>{163E754A-56FF-AA78-2647-9E50F27012CE}</Project>
+      <Project>{534432E8-0E1E-D8C5-B2E8-1D6BD6F632F6}</Project>
       <Name>Unity.InputSystem.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{1BE530DC-B85B-8CD2-7669-BA892AA2EC79}</Project>
+      <Project>{48BE99AF-0A65-792D-38FC-1D697995094C}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

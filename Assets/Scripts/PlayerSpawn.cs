@@ -9,7 +9,7 @@ public class PlayerSpawn : NetworkBehaviour
         rb = GetComponent<Rigidbody>();
     }
     [TargetRpc]
-    public void TargetSetSpawn(NetworkConnection conn, Transform spawnPosition)
+    public void TargetSetSpawn(Transform spawnPosition)
     {
 
         rb.linearVelocity = Vector3.zero; // Reset any movement forces

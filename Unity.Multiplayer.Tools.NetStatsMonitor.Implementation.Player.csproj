@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>Unity.Multiplayer.Tools.NetStatsMonitor.Implementation</RootNamespace>
-    <ProjectGuid>{3CAE3301-9FC8-95F1-0F4F-FADDB135629D}</ProjectGuid>
+    <ProjectGuid>{725F21E6-DD86-FB90-E710-177B4AC027AB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Multiplayer.Tools.NetStatsMonitor.Implementation</AssemblyName>
@@ -898,27 +898,27 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Multiplayer.Tools.Adapters.Player.csproj">
-      <Project>{FF58D836-2C46-93BF-3A80-A9D5AA05E2BC}</Project>
+      <Project>{1C61D500-F586-74E3-0431-712F010C7B26}</Project>
       <Name>Unity.Multiplayer.Tools.Adapters.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Multiplayer.Tools.Common.Player.csproj">
-      <Project>{17FF7233-8DB1-4933-72E7-E7990070B133}</Project>
+      <Project>{4AE08BE6-AF2C-0755-EB16-7E8873B96F3F}</Project>
       <Name>Unity.Multiplayer.Tools.Common.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Multiplayer.Tools.MetricTypes.Player.csproj">
-      <Project>{EDEBFF61-5354-FB06-687D-10DC1AABC03E}</Project>
+      <Project>{72DFAF4F-C26C-6DFC-6E00-BE5FF1462A9D}</Project>
       <Name>Unity.Multiplayer.Tools.MetricTypes.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Multiplayer.Tools.NetStats.Player.csproj">
-      <Project>{2E8C1A55-64CB-D953-F2B3-C98AF4F4200C}</Project>
+      <Project>{894C5C44-0DB9-E7EF-ABC9-0F13E7D10829}</Project>
       <Name>Unity.Multiplayer.Tools.NetStats.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Multiplayer.Tools.NetStatsMonitor.Configuration.Player.csproj">
-      <Project>{45A56A1C-D2BB-007C-FE00-FABAF85CA168}</Project>
+      <Project>{F819A8EE-A133-60EF-AFC2-A17EF43F7283}</Project>
       <Name>Unity.Multiplayer.Tools.NetStatsMonitor.Configuration.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{1BE530DC-B85B-8CD2-7669-BA892AA2EC79}</Project>
+      <Project>{48BE99AF-0A65-792D-38FC-1D697995094C}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>
