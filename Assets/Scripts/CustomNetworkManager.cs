@@ -41,6 +41,11 @@ public class CustomNetworkManager : NetworkManager
 
         gameStarted = true;
 
+        if (LobbyController.instance != null)
+        {
+            Destroy(LobbyController.instance);
+        }
+        
         ServerChangeScene(sceneName);
     }
 

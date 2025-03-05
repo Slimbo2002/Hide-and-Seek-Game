@@ -132,6 +132,7 @@ public class LobbyController : MonoBehaviour
         }
     }
 
+
     public void UpdatePlayerItem()
     {
         foreach (PlayerObjectController player in NetworkManager.gamePlayer)

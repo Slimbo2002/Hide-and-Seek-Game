@@ -49,9 +49,28 @@ public class PlayerLook : NetworkBehaviour
         // Clamp xRotation to prevent over-rotation (looking beyond straight up or down)
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
 
-        // Apply rotations
-        orientation.rotation = Quaternion.Euler(0, yRotation, 0); // Rotate the player's body horizontally
         cam.transform.localRotation = Quaternion.Euler(xRotation, 0, 0); // Rotate the camera vertically
+        if (NetworkClient.ready)
+        {
+            CMDLook(yRotation);
+        }
+        
+    }
+    [Command]
+    void CMDLook(float newYRotation)
+    {
+        // Update the player's rotation on the server
+        yRotation = newYRotation;
+
+        // Tell all clients to update this player's rotation
+        RPCLook(yRotation);
+    }
+
+    [ClientRpc]
+    void RPCLook(float newYRotation)
+    {
+        // Apply rotation on all clients
+        orientation.rotation = Quaternion.Euler(0, newYRotation, 0);
     }
 
     // Get mouse input from your input system

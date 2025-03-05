@@ -3,6 +3,7 @@ using Mirror;
 using Steamworks;
 using Mirror.Examples.CouchCoop;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class PlayerObjectController : NetworkBehaviour
 {
@@ -27,10 +28,17 @@ public class PlayerObjectController : NetworkBehaviour
             return networkManager = CustomNetworkManager.singleton as CustomNetworkManager;
         }
     }
-
     private void Start()
     {
-        
+        if (isSeeker && GameManager.instance.seekerSpawn != null)
+        {
+
+            if (isSeeker && GameManager.instance.seekerSpawn != null)
+            {
+                StartCoroutine(moveSeeker());
+
+            }
+        }
     }
 
     public override void OnStartAuthority()
@@ -44,29 +52,17 @@ public class PlayerObjectController : NetworkBehaviour
         {
             NetworkClient.Ready();
         }
-        
+
     }
     public override void OnStartClient()
     {
+
         NetworkManager.gamePlayer.Add(this);
         rb = GetComponent<Rigidbody>();
         LobbyController.instance.UpdateLobbyName();
         LobbyController.instance.UpdatePlayerList();
 
-        if (SceneManager.GetActiveScene().name == "HouseMap")
-        {
-            if (isSeeker)
-            {
-                rb.linearVelocity = Vector3.zero; // Reset any movement forces
-                rb.angularVelocity = Vector3.zero; // Reset rotation forces
-                rb.isKinematic = true; // Fully disable physics
-
-
-                transform.position = GameManager.instance.seekerSpawn.transform.position; // Manually set position
-                rb.isKinematic = false; // Re-enable physics
-
-            }
-        }
+        
     }
 
     public override void OnStopClient()
@@ -128,5 +124,18 @@ public class PlayerObjectController : NetworkBehaviour
     public void cmdStartGame(string sceneName)
     {
         NetworkManager.StartGame(sceneName);
+    }
+    public IEnumerator moveSeeker()
+    {
+        yield return new WaitForSeconds(.2f);
+        rb.linearVelocity = Vector3.zero; // Reset any movement forces
+        rb.angularVelocity = Vector3.zero; // Reset rotation forces
+        rb.isKinematic = true; // Fully disable physics
+
+
+        transform.position = GameManager.instance.seekerSpawn.transform.position; // Manually set position
+        rb.isKinematic = false; // Re-enable physics
+
+        
     }
 }
