@@ -33,7 +33,7 @@ public class PlayerMovement : NetworkBehaviour
 
     void Update()
     {
-        if(!isOwned) return;
+        if (!isOwned || gameObject == null) return;
 
         Move();
     }

@@ -30,13 +30,13 @@ public class PlayerObjectController : NetworkBehaviour
     }
     private void Start()
     {
-        if (isSeeker && GameManager.instance.seekerSpawn != null)
+        rb = GetComponent<Rigidbody>();
+        if (SceneManager.GetActiveScene().name == "HouseMap")
         {
-
             if (isSeeker && GameManager.instance.seekerSpawn != null)
             {
-                StartCoroutine(moveSeeker());
 
+                StartCoroutine(moveSeeker());
             }
         }
     }
@@ -45,8 +45,13 @@ public class PlayerObjectController : NetworkBehaviour
     {
         cmdSetPlayerName(SteamFriends.GetPersonaName());
         gameObject.name = "LocalGamePlayer";
-        LobbyController.instance.FindLocalPlayer();
-        LobbyController.instance.UpdateLobbyName();
+
+        if (LobbyController.instance != null)
+        {
+            LobbyController.instance.FindLocalPlayer();
+            LobbyController.instance.UpdateLobbyName();
+        }
+        
 
         if (!NetworkClient.ready)
         {
@@ -59,8 +64,13 @@ public class PlayerObjectController : NetworkBehaviour
 
         NetworkManager.gamePlayer.Add(this);
         rb = GetComponent<Rigidbody>();
-        LobbyController.instance.UpdateLobbyName();
-        LobbyController.instance.UpdatePlayerList();
+
+        if (LobbyController.instance != null)
+        {
+            LobbyController.instance.UpdateLobbyName();
+            LobbyController.instance.UpdatePlayerList();
+        }
+        
 
         
     }
@@ -68,7 +78,12 @@ public class PlayerObjectController : NetworkBehaviour
     public override void OnStopClient()
     {
         NetworkManager.gamePlayer.Remove(this);
-        LobbyController.instance.UpdatePlayerList();
+
+        if(LobbyController.instance != null)
+        {
+            LobbyController.instance.UpdatePlayerList();
+        }
+        
     }
     [Command]
     void cmdSetPlayerName(string playerName)
@@ -84,7 +99,11 @@ public class PlayerObjectController : NetworkBehaviour
         }
         if (isClient)
         {
-            LobbyController.instance.UpdatePlayerList();
+            if (LobbyController.instance != null)
+            {
+                LobbyController.instance.UpdatePlayerList();
+            }
+            
         }
     }
     public void RPCSetSeeker()

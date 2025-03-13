@@ -73,7 +73,7 @@ public class CustomNetworkManager : NetworkManager
         {
             if (gamePlayer[i].isSeeker)
             {
-                gamePlayer[i].RPCAnnounce("You are a Seeke");
+                gamePlayer[i].RPCAnnounce("You are a Seeker");
             }
             else
             {

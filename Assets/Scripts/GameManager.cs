@@ -34,23 +34,6 @@ public class GameManager : NetworkBehaviour
         base.OnStartServer();
         NetworkManager.seekerSpawn = seekerSpawn;
     }
-    public IEnumerator DelayedSpawn()
-    {
-        yield return new WaitForSeconds(.1f);
-        InitPlayerSpawns();
-    }
-    [Server]
-    void InitPlayerSpawns()
-    {
-        foreach (var player in NetworkManager.gamePlayer)
-        {
-            var spawn = player.isSeeker ? seekerSpawn : NetworkManager.GetStartPosition();
-
-            if (player.connectionToClient != null)
-            {
-                player.GetComponent<PlayerSpawn>().TargetSetSpawn(spawn);
-            }
-        }
-    }
+    
 
 }
