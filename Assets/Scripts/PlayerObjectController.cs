@@ -147,18 +147,9 @@ public class PlayerObjectController : NetworkBehaviour
     }
     public IEnumerator moveSeeker()
     {
-        UserInputs.inputREF.enabled = false;
         yield return new WaitForSeconds(.2f);
-        
-
-        rb.linearVelocity = Vector3.zero; // Reset any movement forces
-        rb.angularVelocity = Vector3.zero; // Reset rotation forces
-        rb.isKinematic = true; // Fully disable physics
 
 
-        transform.position = GameManager.instance.seekerSpawn.transform.position; // Manually set position
-        rb.isKinematic = false; // Re-enable physics
-
-        UserInputs.inputREF.enabled = true;
+        rb.MovePosition(GameManager.instance.seekerSpawn.transform.position);
     }
 }

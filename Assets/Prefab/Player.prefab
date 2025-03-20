@@ -239,7 +239,7 @@ MonoBehaviour:
   syncMode: 0
   syncInterval: 0
   speed: 8
-  jumpForce: 2.5
+  jumpForce: 13
   cameraTransform: {fileID: 7679571463424701728}
   groundCheck: {fileID: 6366656149967326210}
   groundDistance: 0.2

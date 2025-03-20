@@ -16,6 +16,8 @@ public class CustomNetworkManager : NetworkManager
 
     public Transform seekerSpawn;
 
+    public bool changingScene;
+
 
 
     public override void OnServerAddPlayer(NetworkConnectionToClient conn)

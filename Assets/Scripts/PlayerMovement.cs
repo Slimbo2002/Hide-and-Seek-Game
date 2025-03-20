@@ -96,7 +96,7 @@ public class PlayerMovement : NetworkBehaviour
     [ClientRpc]
     void RpcJump()
     {
-        rb.AddForce(Vector3.up * 9f, ForceMode.Impulse); // Apply force on all clients
+        rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse); // Apply force on all clients
     }
     [Command]
     void CmdMove(Vector3 moveDirection)
