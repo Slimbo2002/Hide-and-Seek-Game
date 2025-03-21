@@ -43,11 +43,6 @@ public class CustomNetworkManager : NetworkManager
 
         gameStarted = true;
 
-        if (LobbyController.instance != null)
-        {
-            Destroy(LobbyController.instance);
-        }
-        
         ServerChangeScene(sceneName);
     }
 
@@ -81,6 +76,17 @@ public class CustomNetworkManager : NetworkManager
             {
                 gamePlayer[i].RPCAnnounce("You are a Hider");
             }
+        }
+    }
+    [Server]
+    public void EndGame()
+    {
+        gameStarted = false;
+
+        for (int i = 0;i < gamePlayer.Count; i++)
+        {
+            gamePlayer[i].isCaught = false;
+            gamePlayer[i].GetComponent<SeekerBehaviour>().enabled = false;
         }
     }
 

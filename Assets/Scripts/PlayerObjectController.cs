@@ -13,6 +13,7 @@ public class PlayerObjectController : NetworkBehaviour
     [SyncVar(hook =nameof(PlayerNameUpdate))] public string playerName;
 
     [SyncVar] public bool isSeeker;
+    [SyncVar] public bool isCaught;
 
 
     Rigidbody rb;
@@ -32,14 +33,6 @@ public class PlayerObjectController : NetworkBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
-        if (SceneManager.GetActiveScene().name == "HouseMap")
-        {
-            if (isSeeker && GameManager.instance.seekerSpawn != null)
-            {
-
-                StartCoroutine(moveSeeker());
-            }
-        }
     }
 
     public override void OnStartAuthority()

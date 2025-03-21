@@ -19,7 +19,7 @@ public class UserInputs : MonoBehaviour
     public bool jumpInput { get; private set; }
     public bool interactInput { get; private set; }
 
-    public float attackInput { get; private set; }
+    public bool attackInput { get; private set; }
 
 
 
@@ -79,6 +79,6 @@ public class UserInputs : MonoBehaviour
         interactInput = interactAction.WasPressedThisFrame();
 
         jumpInput = jumpAction.WasPressedThisFrame();
-        attackInput = attackAction.ReadValue<float>();
+        attackInput = attackAction.WasPressedThisFrame();
     }
 }

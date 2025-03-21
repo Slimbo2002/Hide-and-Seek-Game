@@ -79,6 +79,7 @@
     <Compile Include="Assets\Scripts\SteamLobby.cs" />
     <Compile Include="Assets\Scripts\SetSpawnPoints.cs" />
     <Compile Include="Assets\KinematicCharacterController\Examples\Scripts\PlayableMover.cs" />
+    <Compile Include="Assets\Scripts\SeekerBehaviour.cs" />
     <Compile Include="Assets\KinematicCharacterController\Core\ReadOnlyAttribute.cs" />
     <Compile Include="Assets\KinematicCharacterController\ExampleCharacter\Scripts\ExamplePlayer.cs" />
     <Compile Include="Assets\Scripts\NetworkPhysicsObject.cs" />
