@@ -1,4 +1,4 @@
-Library: E:\UnityProjects\Hide and Seek Multiplayer game\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
+Library: E:\GitRepos\Hide-and-Seek-Game\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
 --platform=Windows
 --backend=burst-llvm-16
 --target=X64_SSE2
@@ -9,11 +9,10 @@ Library: E:\UnityProjects\Hide and Seek Multiplayer game\Temp\BurstOutput\Data\P
 --target-framework=NetFramework
 --linker-options=PdbAltPath="Hide and Seek Multiplayer game_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
---temp-folder=E:\UnityProjects\Hide and Seek Multiplayer game\Temp\Burst
---debug=Full
+--temp-folder=E:\GitRepos\Hide-and-Seek-Game\Temp\Burst
 --key-folder=E:/Unity/Hub/Editor/6000.0.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
---decode-folder=E:\UnityProjects\Hide and Seek Multiplayer game\Library\Burst
---output=E:\UnityProjects\Hide and Seek Multiplayer game\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
+--decode-folder=E:\GitRepos\Hide-and-Seek-Game\Library\Burst
+--output=E:\GitRepos\Hide-and-Seek-Game\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
 
 --method=Unity.Burst.BurstCompiler+BurstCompilerHelper, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::IsBurstEnabled()--8c2be93e18276203cbd918daa2748a10
@@ -117,11 +116,10 @@ Library: E:\UnityProjects\Hide and Seek Multiplayer game\Temp\BurstOutput\Data\P
 --target-framework=NetFramework
 --linker-options=PdbAltPath="Hide and Seek Multiplayer game_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
---temp-folder=E:\UnityProjects\Hide and Seek Multiplayer game\Temp\Burst
---debug=Full
+--temp-folder=E:\GitRepos\Hide-and-Seek-Game\Temp\Burst
 --key-folder=E:/Unity/Hub/Editor/6000.0.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
---decode-folder=E:\UnityProjects\Hide and Seek Multiplayer game\Library\Burst
---output=E:\UnityProjects\Hide and Seek Multiplayer game\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
+--decode-folder=E:\GitRepos\Hide-and-Seek-Game\Library\Burst
+--output=E:\GitRepos\Hide-and-Seek-Game\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
 
 --method=Unity.Burst.BurstCompiler+BurstCompilerHelper, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::IsBurstEnabled()--8c2be93e18276203cbd918daa2748a10
