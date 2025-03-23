@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D9C89AC6-C499-E087-2065-CF50B57FB8A6}</ProjectGuid>
+    <ProjectGuid>{BF1A109F-5AFE-00F4-482C-A74CA53D5BF0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Services.Core.Registration</AssemblyName>
@@ -56,7 +56,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-    <Analyzer Include="E:\UnityProjects\Hide and Seek Multiplayer game\Library\PackageCache\com.unity.transport\Analyzers\Unity.Transport.Analyzers.dll" />
     <Analyzer Include="E:\Unity\Hub\Editor\6000.0.31f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="E:\Unity\Hub\Editor\6000.0.31f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="E:\Unity\Hub\Editor\6000.0.31f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
@@ -868,43 +867,43 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Services.Core.Internal.Player.csproj">
-      <Project>{EA18ECE3-BB23-8953-F55E-144C78F151B3}</Project>
+      <Project>{2C7C1780-8AA0-FAE5-9720-7DCDBC73EEAA}</Project>
       <Name>Unity.Services.Core.Internal.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Device.Player.csproj">
-      <Project>{4E69E70F-B43A-B933-F19B-7A9B07738AED}</Project>
+      <Project>{7443DE42-9D1D-B027-ED6A-8FD7C628C307}</Project>
       <Name>Unity.Services.Core.Device.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Environments.Player.csproj">
-      <Project>{F9EA14DF-2A5D-E540-602E-05FC29D2D230}</Project>
+      <Project>{597427A8-A2B6-DB37-C4AA-2E87BF57628A}</Project>
       <Name>Unity.Services.Core.Environments.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Environments.Internal.Player.csproj">
-      <Project>{AB3517EE-9B7C-C55E-6ADA-87DBB164120F}</Project>
+      <Project>{4146DAC7-6188-EC09-DAE8-5E51C6440FBD}</Project>
       <Name>Unity.Services.Core.Environments.Internal.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Configuration.Player.csproj">
-      <Project>{7F0026C2-FC17-64E7-0A38-22BD10A08CCD}</Project>
+      <Project>{F3E70ABA-538B-4279-5975-1AD50E809B15}</Project>
       <Name>Unity.Services.Core.Configuration.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Player.csproj">
-      <Project>{1CCD0AE4-726A-9944-3EBD-90AFD8E1A5EA}</Project>
+      <Project>{793E3550-BE5F-9A4F-0A38-0626A9B38F53}</Project>
       <Name>Unity.Services.Core.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Telemetry.Player.csproj">
-      <Project>{EC151105-2A8A-F2D0-83C1-29699B52B003}</Project>
+      <Project>{8A9EF88E-7D04-EC6D-4520-2D3DA5923081}</Project>
       <Name>Unity.Services.Core.Telemetry.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Scheduler.Player.csproj">
-      <Project>{B0D1C1BE-8ADE-99A6-18A9-4179643E95CD}</Project>
+      <Project>{FD0A2A53-4767-79D4-CCFA-5D4FD3D984B5}</Project>
       <Name>Unity.Services.Core.Scheduler.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Threading.Player.csproj">
-      <Project>{2DAF9926-EEEB-5D2F-5CC6-B4BDCA024D15}</Project>
+      <Project>{0A9A6676-9656-D7FA-9A32-FA0F7A8917F6}</Project>
       <Name>Unity.Services.Core.Threading.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{1BE530DC-B85B-8CD2-7669-BA892AA2EC79}</Project>
+      <Project>{48BE99AF-0A65-792D-38FC-1D697995094C}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

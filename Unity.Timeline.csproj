@@ -82,10 +82,10 @@
     <Compile Include="Library\PackageCache\com.unity.timeline\Runtime\Utilities\AnimationPreviewUtilities.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline\Runtime\Events\INotificationOptionProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline\Runtime\Playables\ActivationControlPlayable.cs" />
-    <Compile Include="Library\PackageCache\com.unity.timeline\Runtime\AssetUpgrade\ClipUpgrade.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline\Runtime\Utilities\WeightUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.timeline\Runtime\Utilities\TimelineClipExtensions.cs" />
+    <Compile Include="Library\PackageCache\com.unity.timeline\Runtime\AssetUpgrade\ClipUpgrade.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline\Runtime\Audio\AudioTrack.cs" />
+    <Compile Include="Library\PackageCache\com.unity.timeline\Runtime\Utilities\TimelineClipExtensions.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline\Runtime\Extensions\TrackExtensions.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline\Runtime\Evaluation\ScheduleRuntimeClip.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline\Runtime\Utilities\IPropertyCollector.cs" />

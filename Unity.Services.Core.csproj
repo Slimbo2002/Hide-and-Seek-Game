@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{BC9AD745-725D-2A13-416E-21BC5E6681CA}</ProjectGuid>
+    <ProjectGuid>{B4606A54-AA14-71EE-1F35-B91F73098A76}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Services.Core</AssemblyName>
@@ -56,7 +56,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-    <Analyzer Include="E:\UnityProjects\Hide and Seek Multiplayer game\Library\PackageCache\com.unity.transport\Analyzers\Unity.Transport.Analyzers.dll" />
     <Analyzer Include="E:\Unity\Hub\Editor\6000.0.31f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="E:\Unity\Hub\Editor\6000.0.31f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="E:\Unity\Hub\Editor\6000.0.31f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
@@ -68,7 +67,6 @@
     <Compile Include="Library\PackageCache\com.unity.services.core\Runtime\Core\UnityServices.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core\Runtime\Core\Initialization\ServicesInitializationException.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core\Runtime\Core\Initialization\InitializationOptions.cs" />
-    <Compile Include="Library\PackageCache\com.unity.services.core\Runtime\Core\ServicesType.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core\Runtime\Core\Utils\UnityThreadUtils.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core\Runtime\Core\IService.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core\Runtime\Core\UnityServicesBuilder.cs" />
@@ -1118,11 +1116,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{2D6A4187-1860-659C-59FC-C8BE497DD830}</Project>
+      <Project>{D232F447-9F3C-700E-6E3E-F810988D7B07}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{EDBC09FD-6C65-6583-7681-B52CB6F3BF9B}</Project>
+      <Project>{594D8F85-6F24-D5C1-8D69-B029ED6687E8}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

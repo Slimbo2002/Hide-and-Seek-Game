@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3420CFF7-9450-500E-4D0E-FEE2B4014538}</ProjectGuid>
+    <ProjectGuid>{DD590049-6EBA-B85F-40B1-11CB390ED976}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Services.Authentication</AssemblyName>
@@ -56,7 +56,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-    <Analyzer Include="E:\UnityProjects\Hide and Seek Multiplayer game\Library\PackageCache\com.unity.transport\Analyzers\Unity.Transport.Analyzers.dll" />
     <Analyzer Include="E:\Unity\Hub\Editor\6000.0.31f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="E:\Unity\Hub\Editor\6000.0.31f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="E:\Unity\Hub\Editor\6000.0.31f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
@@ -83,6 +82,7 @@
     <Compile Include="Library\PackageCache\com.unity.services.authentication\Runtime\Generated\Shared\ApiResponse.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.authentication\Runtime\Generated\Shared\ApiException.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.authentication\Runtime\Generated\PlayerNames\Model\Player.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.authentication\Runtime\Components\PlayerAuthenticationEvents.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.authentication\Runtime\Models\Requests\AppleGameCenterConfig.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.authentication\Runtime\Models\SignInCodeInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.authentication\Runtime\Models\Responses\LinkResponse.cs" />
@@ -90,6 +90,7 @@
     <Compile Include="Library\PackageCache\com.unity.services.authentication\Runtime\Network\AuthenticationNetworkClient.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.authentication\Runtime\Models\Responses\ExternalIdentity.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.authentication\Runtime\Generated\Shared\OpenAPIDateConverter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.authentication\Runtime\Components\PlayerAuthentication.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.authentication\Runtime\Metrics\AuthenticationMetrics.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.authentication\Runtime\Models\Components\PlayerNameComponent.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.authentication\Runtime\Exceptions\IAuthenticationExceptionHandler.cs" />
@@ -1215,23 +1216,27 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Services.Core.csproj">
-      <Project>{BC9AD745-725D-2A13-416E-21BC5E6681CA}</Project>
+      <Project>{B4606A54-AA14-71EE-1F35-B91F73098A76}</Project>
       <Name>Unity.Services.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Components.csproj">
+      <Project>{72A669A3-478E-E318-F99E-DD3B5235F6CC}</Project>
+      <Name>Unity.Services.Core.Components</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Internal.csproj">
-      <Project>{1203D94C-1C1F-1FD1-2D9D-B35D490A576E}</Project>
+      <Project>{5778C731-2A6C-C0CC-0C64-F5A31FA9E645}</Project>
       <Name>Unity.Services.Core.Internal</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Environments.csproj">
-      <Project>{D4E6BF23-5B63-C336-32ED-E4442A15DEBE}</Project>
+      <Project>{C5FA80BA-C925-7BF8-CDF5-338902FFA267}</Project>
       <Name>Unity.Services.Core.Environments</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{2D6A4187-1860-659C-59FC-C8BE497DD830}</Project>
+      <Project>{D232F447-9F3C-700E-6E3E-F810988D7B07}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{EDBC09FD-6C65-6583-7681-B52CB6F3BF9B}</Project>
+      <Project>{594D8F85-6F24-D5C1-8D69-B029ED6687E8}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

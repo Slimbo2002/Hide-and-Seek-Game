@@ -34,6 +34,7 @@ public class CustomNetworkManager : NetworkManager
         {
             gamePlayerInstance.isSeeker = authData;
         }
+        VivoxPlayer.Instance.JoinChannel("GameChannel");
     }
 
     [Server]

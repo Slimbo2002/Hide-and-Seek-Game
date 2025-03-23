@@ -86,8 +86,8 @@
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\Expressions\VFXExpressionCast.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\GraphView\Elements\Controllers\VFXFlowEdgeController.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\Models\Deprecated\PositionAABoxDeprecatedV2.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\GraphView\Elements\VFXStickyNote.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\Models\Operators\Implementations\Maximum.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\GraphView\Elements\VFXStickyNote.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\GraphView\Blackboard\VFXBlackboard.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\Models\Operators\Implementations\PositionDepth.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\Expressions\VFXExpressionAbstractFloatOperation.cs" />
@@ -265,9 +265,9 @@
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\Expressions\VFXExpressionTextureDim.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\Models\Operators\Implementations\ConeVolume.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\Expressions\VFXExpressionTextureValues.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\Models\Blocks\Implementations\Collision\CollisionSphere.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\Models\Contexts\Implementations\VFXBasicSpawner.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\GraphView\Profiling\VFXProfilingBoard.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\Models\Blocks\Implementations\Collision\CollisionSphere.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\Models\Blocks\Implementations\Spawn\VFXSpawnerBurstOld.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\Models\Operators\Implementations\DotProduct.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\Types\VFXConeGizmos.cs" />
@@ -276,8 +276,8 @@
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\Models\Operators\Implementations\Condition.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\Types\VFXProperty.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\Controls\VFXMatrix4x4Field.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\Models\Contexts\Implementations\VFXLineStripOutput.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\Models\Operators\Implementations\SampleIndex.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\Models\Contexts\Implementations\VFXLineStripOutput.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\Models\VFXSlotContainerModel.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\Models\Contexts\Implementations\VFXComposedParticleStripOutput.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\Models\Blocks\Implementations\Update\AngularEulerIntegration.cs" />
@@ -290,8 +290,8 @@
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\Models\Operators\Implementations\Sign.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\Models\Contexts\Implementations\VFXPlanarPrimitiveHelper.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\Models\Blocks\VFXSubgraphBlock.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\Models\Operators\Implementations\SquareRoot.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\GraphView\Views\VFXVCSDropdownButton.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\Models\Operators\Implementations\SquareRoot.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\GraphView\Views\Properties\ObjectPropertyRM.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\ShaderGraph\VFXShaderGraphPostProcessor.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\Models\Operators\Implementations\Minimum.cs" />
@@ -425,8 +425,8 @@
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\Models\Deprecated\PositionSphereDeprecatedV2.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\GraphView\Views\Properties\PropertyRM.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\Models\Blocks\Implementations\Attribute\AttributeMassFromVolume.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\Models\Deprecated\CellularNoise.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\GraphView\Elements\VFXOutputDataAnchor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\Models\Deprecated\CellularNoise.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\Models\Blocks\Implementations\Collision\CollisionCone.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\Models\Contexts\VFXGlobalSort.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\Models\Deprecated\CollisionSphereDeprecatedV2.cs" />
@@ -581,8 +581,8 @@
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\GraphView\Elements\Controllers\VFXOperatorController.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\Models\Blocks\Implementations\Position\PositionLine.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\Models\Operators\Implementations\DistanceToLine.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\VFXAssetEditorUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\GraphView\Controllers\IControlledElement.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\VFXAssetEditorUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\Expressions\VFXExpressionSampleAttributeMap.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\GraphView\Views\VFXSaveDropdownButton.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph\Editor\Models\Operators\Implementations\Atan2.cs" />

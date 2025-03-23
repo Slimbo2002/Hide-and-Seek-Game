@@ -74,8 +74,8 @@
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\Views\CreateWorkspace\PerformInitialCheckin.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\ParentWindow.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\PlasticMenuItem.cs" />
-    <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\UI\EnumPopupSetting.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\Configuration\ClientConfiguration.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\UI\EnumPopupSetting.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\AssetMenu\Dialogs\CheckinDialogOperations.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\_Deprecated\WebApi\IsCollabProjectMigratedResponse.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\Developer\ProgressOperationHandler.cs" />
@@ -167,8 +167,8 @@
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\Configuration\SSOCredentialsDialog.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\Configuration\EncryptionConfigurationDialog.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\EnumExtensions.cs" />
-    <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\Views\Changesets\ChangesetsListHeaderState.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\Views\Diff\DiffSelection.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\Views\Changesets\ChangesetsListHeaderState.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\Gluon\UpdateReport\ErrorListViewItem.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\Views\CreateWorkspace\Dialogs\RepositoryExplorerDialog.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\Views\PendingChanges\ChangeTreeViewItem.cs" />
@@ -189,8 +189,8 @@
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\Views\Changesets\ChangesetsTab.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\UI\DrawSplitter.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\UI\StatusBar\StatusBar.cs" />
-    <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\PlasticPlugin.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\AssetsUtils\RepaintInspector.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\PlasticPlugin.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\UI\Tree\TreeViewItemIds.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\PlasticWindow.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\Views\Branch\BranchesTab_Operations.cs" />

@@ -23,7 +23,7 @@ public class LobbyController : MonoBehaviour
     public PlayerObjectController localPlayerController;
 
     int privacyIndex = 0;
-    public TextMeshProUGUI privacyText;
+    public TextMeshProUGUI privacyText, playerCount;
 
     CustomNetworkManager networkManager;
     CustomNetworkManager NetworkManager
@@ -51,13 +51,16 @@ public class LobbyController : MonoBehaviour
         privacyText.text = "Public"; 
         
     }
+    private void Update()
+    {
+        MaxPlayerCount(); 
+        
+    }
 
     public void UpdateLobbyName()
     {
         currentLobbyID = NetworkManager.GetComponent<SteamLobby>().currentLobbyID;
         lobbyNameText.text = SteamMatchmaking.GetLobbyData(new CSteamID(currentLobbyID), "name");
-
-
     }
 
     public void UpdatePlayerList()
@@ -225,6 +228,10 @@ public class LobbyController : MonoBehaviour
         yield return new WaitForSeconds(3f);
 
         ChangeScene(sceneName);
+    }
+    void MaxPlayerCount()
+    {
+        playerCount.text = $"{NetworkManager.gamePlayer.Count}/{NetworkManager.maxConnections}";
     }
 
 }

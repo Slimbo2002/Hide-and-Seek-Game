@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{DE027F15-36D8-3743-F370-0CA331026112}</ProjectGuid>
+    <ProjectGuid>{945E093B-8C77-BC31-5FED-89DFF40FDC6A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Services.Core.Configuration.Editor</AssemblyName>
@@ -56,7 +56,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-    <Analyzer Include="E:\UnityProjects\Hide and Seek Multiplayer game\Library\PackageCache\com.unity.transport\Analyzers\Unity.Transport.Analyzers.dll" />
     <Analyzer Include="E:\Unity\Hub\Editor\6000.0.31f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="E:\Unity\Hub\Editor\6000.0.31f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="E:\Unity\Hub\Editor\6000.0.31f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
@@ -1131,31 +1130,31 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Services.Core.csproj">
-      <Project>{BC9AD745-725D-2A13-416E-21BC5E6681CA}</Project>
+      <Project>{B4606A54-AA14-71EE-1F35-B91F73098A76}</Project>
       <Name>Unity.Services.Core</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Configuration.csproj">
-      <Project>{99848619-B135-4D5F-81FC-C2356E686831}</Project>
+      <Project>{54FF14F7-9B58-CE0D-20E8-94C0FAB4767D}</Project>
       <Name>Unity.Services.Core.Configuration</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Internal.csproj">
-      <Project>{1203D94C-1C1F-1FD1-2D9D-B35D490A576E}</Project>
+      <Project>{5778C731-2A6C-C0CC-0C64-F5A31FA9E645}</Project>
       <Name>Unity.Services.Core.Internal</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{2D6A4187-1860-659C-59FC-C8BE497DD830}</Project>
+      <Project>{D232F447-9F3C-700E-6E3E-F810988D7B07}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{EDBC09FD-6C65-6583-7681-B52CB6F3BF9B}</Project>
+      <Project>{594D8F85-6F24-D5C1-8D69-B029ED6687E8}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{5879941D-F6C6-2E9A-6E33-91D54D70EB92}</Project>
+      <Project>{A9F7B8B0-E76B-A71C-A020-00A98C1619D4}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{D1EA392A-76C4-9D63-7795-8322D9903A41}</Project>
+      <Project>{2B98296B-43FB-2376-75EC-6AE82388D581}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

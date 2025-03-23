@@ -1,0 +1,27 @@
+{
+    "name": "ChatChannelSample",
+    "rootNamespace": "",
+    "references": [
+        "VivoxUnity",
+        "Unity.Services.Core",
+        "Unity.Services.Vivox",
+        "Unity.Services.Authentication"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [
+        "WindowsStandalone32"
+    ],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.services.authentication",
+            "expression": "",
+            "define": "AUTH_PACKAGE_PRESENT"
+        }
+    ],
+    "noEngineReferences": false
+}

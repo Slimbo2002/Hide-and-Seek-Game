@@ -1185,6 +1185,10 @@
       <Project>{882A5E45-7F20-8CA0-5756-B76BC192D114}</Project>
       <Name>Unity.Multiplayer.PlayMode.Configurations.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Environments.Editor.csproj">
+      <Project>{58C1E047-3B47-F485-3F3C-780080E15D28}</Project>
+      <Name>Unity.Services.Core.Environments.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Multiplayer.Playmode.Workflow.Editor.csproj">
       <Project>{22035A88-1768-81B4-ED0C-9E2D55345E08}</Project>
       <Name>Unity.Multiplayer.Playmode.Workflow.Editor</Name>
