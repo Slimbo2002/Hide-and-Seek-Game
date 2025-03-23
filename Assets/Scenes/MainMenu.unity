@@ -129,6 +129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 114615215}
   - component: {fileID: 114615216}
+  - component: {fileID: 114615217}
   m_Layer: 0
   m_Name: VivoxVoiceManager
   m_TagString: Untagged
@@ -167,6 +168,18 @@ MonoBehaviour:
   _issuer: 17967-hide_-33145-udash
   _domain: mtu1xp.vivox.com
   _server: https://unity.vivox.com/appconfig/17967-hide_-33145-udash
+--- !u!114 &114615217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114615214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4058fc260adc5cc43ab45461118d6a20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &222498589
 GameObject:
   m_ObjectHideFlags: 0
@@ -646,10 +659,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4058fc260adc5cc43ab45461118d6a20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  syncDirection: 0
-  syncMode: 0
-  syncInterval: 0
-  VoiceChannelName: GameChannel
 --- !u!1 &866449723
 GameObject:
   m_ObjectHideFlags: 0
@@ -1641,50 +1650,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1661717885
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1661717887}
-  - component: {fileID: 1661717886}
-  m_Layer: 0
-  m_Name: VivoxManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1661717886
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1661717885}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40848c717c7564a42aba26fef885038c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &1661717887
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1661717885}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 31.801546, y: 13.358472, z: 10.359821}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1695,5 +1660,4 @@ SceneRoots:
   - {fileID: 1562811082}
   - {fileID: 592041506}
   - {fileID: 222498592}
-  - {fileID: 1661717887}
   - {fileID: 114615215}

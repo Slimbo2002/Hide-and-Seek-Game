@@ -3,6 +3,7 @@ using Unity.Services.Vivox;
 using Unity.Services.Authentication;
 using Unity.Services.Core;
 using Mirror;
+using System.Collections.Generic;
 
 public class VivoxPlayer : MonoBehaviour
 {
@@ -23,9 +24,16 @@ public class VivoxPlayer : MonoBehaviour
 
         await VivoxService.Instance.LoginAsync();
     }
+    public async void LoginToVivoxAsync(List<string> blockedList, string displayName)
+    {
+        LoginOptions options = new LoginOptions();
+        options.DisplayName = displayName;
+        options.BlockedUserList = blockedList;
+        await VivoxService.Instance.LoginAsync(options);
+    }
     public async void JoinChannel(string channelName)
     {
-        await VivoxService.Instance.JoinEchoChannelAsync(channelName, ChatCapability.TextAndAudio);
+        await VivoxService.Instance.JoinGroupChannelAsync(channelName, ChatCapability.TextAndAudio);
 
     }
     public async void LeaveChannel(string channelName)
