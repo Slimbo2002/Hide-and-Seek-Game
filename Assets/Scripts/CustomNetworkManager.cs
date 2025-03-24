@@ -5,7 +5,7 @@ using Steamworks;
 using NUnit.Framework;
 using UnityEngine.SceneManagement;
 using System.Collections;
-
+using Unity.Services.Vivox;
 public class CustomNetworkManager : NetworkManager
 {
     [SerializeField] PlayerObjectController gamePlayerPrefab;
@@ -17,6 +17,8 @@ public class CustomNetworkManager : NetworkManager
     public Transform seekerSpawn;
 
     public bool changingScene;
+
+    public VivoxPlayer vivoxPlayer;
 
 
 
@@ -34,7 +36,7 @@ public class CustomNetworkManager : NetworkManager
         {
             gamePlayerInstance.isSeeker = authData;
         }
-        VivoxPlayer.Instance.JoinChannel("GameChannel");
+        
     }
 
     [Server]

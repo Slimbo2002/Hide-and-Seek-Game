@@ -33,6 +33,7 @@ public class PlayerObjectController : NetworkBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
+        NetworkManager.vivoxPlayer.SignIntoVivox();
     }
 
     public override void OnStartAuthority()
@@ -64,9 +65,6 @@ public class PlayerObjectController : NetworkBehaviour
             LobbyController.instance.UpdateLobbyName();
             LobbyController.instance.UpdatePlayerList();
         }
-        
-
-        
     }
 
     public override void OnStopClient()
