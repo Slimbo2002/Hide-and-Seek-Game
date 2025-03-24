@@ -140,6 +140,7 @@ public class VivoxPlayer : MonoBehaviour
             EnableTTS = false
         };
         await VivoxService.Instance.LoginAsync(loginOptions);
+        //await VivoxService.Instance.JoinEchoChannelAsync(vcName, ChatCapability.AudioOnly);
         await VivoxService.Instance.JoinGroupChannelAsync(vcName, ChatCapability.AudioOnly);
         //await VivoxService.Instance.JoinPositionalChannelAsync(vcName, ChatCapability.AudioOnly,
         //        new Channel3DProperties(5, 1, 1f, AudioFadeModel.LinearByDistance));
