@@ -133,7 +133,7 @@ public class VivoxPlayer : MonoBehaviour
 
     async void LoginToVivox(string name)
     {
-        await VivoxVoiceManager.Instance.InitializeAsync(transform.name.ToString());
+        await VivoxVoiceManager.Instance.InitializeAsync(name);
         var loginOptions = new LoginOptions()
         {
             ParticipantUpdateFrequency = ParticipantPropertyUpdateFrequency.FivePerSecond,
