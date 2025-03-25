@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using UnityEngine.Android;
 using UnityEngine.Rendering;
 using UnityEngine.SceneManagement;
+using HeathenEngineering;
 
 public class VivoxPlayer : MonoBehaviour
 {
@@ -108,35 +109,35 @@ public class VivoxPlayer : MonoBehaviour
 #endif
         return PermissionCount == 1;
     }
-    public void SignIntoVivox()     //in the new API this is now an Async function
+    public void SignIntoVivox(string name)     //in the new API this is now an Async function
     {
         //Actual code runs from here
         if (IsMicPermissionGranted())
-            LoginToVivox();
+            LoginToVivox(name);
 
         else
         {
             if (IsPermissionsDenied())
             {
                 PermissionCount = 0;
-                LoginToVivox();
+                LoginToVivox(name);
             }
             else
             {
                 AskForPermissions();
-                LoginToVivox();
+                LoginToVivox(name);
             }
         }
     }
 
 
-    async void LoginToVivox()
+    async void LoginToVivox(string name)
     {
         await VivoxVoiceManager.Instance.InitializeAsync(transform.name.ToString());
         var loginOptions = new LoginOptions()
         {
             ParticipantUpdateFrequency = ParticipantPropertyUpdateFrequency.FivePerSecond,
-            DisplayName = transform.name.ToString(),
+            DisplayName = name,
             EnableTTS = false
         };
         await VivoxService.Instance.LoginAsync(loginOptions);

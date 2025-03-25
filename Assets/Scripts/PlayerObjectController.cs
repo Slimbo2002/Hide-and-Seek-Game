@@ -33,7 +33,7 @@ public class PlayerObjectController : NetworkBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
-        NetworkManager.vivoxPlayer.SignIntoVivox();
+        NetworkManager.vivoxPlayer.SignIntoVivox(transform.name.ToString());
     }
 
     public override void OnStartAuthority()
