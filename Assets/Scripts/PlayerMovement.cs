@@ -96,6 +96,7 @@ public class PlayerMovement : NetworkBehaviour
     [ClientRpc]
     void RpcJump()
     {
+        rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0f, rb.linearVelocity.z);
         rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse); // Apply force on all clients
     }
     [Command]

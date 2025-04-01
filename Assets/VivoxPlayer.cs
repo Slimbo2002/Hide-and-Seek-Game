@@ -133,6 +133,13 @@ public class VivoxPlayer : MonoBehaviour
 
     async void LoginToVivox(string name)
     {
+        // Check if already logged in
+        if (VivoxService.Instance.IsLoggedIn)
+        {
+            Debug.Log("Already logged in to Vivox");
+            return; // Prevent re-login
+        }
+
         await VivoxVoiceManager.Instance.InitializeAsync(name);
         var loginOptions = new LoginOptions()
         {
