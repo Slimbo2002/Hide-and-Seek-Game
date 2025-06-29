@@ -11,7 +11,7 @@ public class UserInputs : MonoBehaviour
 
     public InputActions actions;
 
-    InputAction moveAction, lookAction, jumpAction, interactAction, attackAction;
+    InputAction moveAction, lookAction, jumpAction, interactAction, attackAction, pauseAction;
 
 
     public Vector2 moveInput { get; private set; }
@@ -20,6 +20,7 @@ public class UserInputs : MonoBehaviour
     public bool interactInput { get; private set; }
 
     public bool attackInput { get; private set; }
+    public bool pauseInput { get; private set; }
 
 
 
@@ -69,6 +70,7 @@ public class UserInputs : MonoBehaviour
         jumpAction = actions.Player.Jump;
         interactAction = actions.Player.Interact;
         attackAction = actions.Player.Attack;
+        pauseAction = actions.Player.Pause;
     }
 
     void UpdateInputs()
@@ -80,5 +82,6 @@ public class UserInputs : MonoBehaviour
 
         jumpInput = jumpAction.WasPressedThisFrame();
         attackInput = attackAction.WasPressedThisFrame();
+        pauseInput = pauseAction.WasPressedThisFrame();
     }
 }

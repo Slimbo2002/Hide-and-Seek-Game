@@ -97,14 +97,18 @@
     <Compile Include="Assets\KinematicCharacterController\Core\PhysicsMover.cs" />
     <Compile Include="Assets\Input\UserInputs.cs" />
     <Compile Include="Assets\VivoxPlayer.cs" />
+    <Compile Include="Assets\Scripts\InventoryItem.cs" />
+    <Compile Include="Assets\Scripts\Inventory.cs" />
     <Compile Include="Assets\KinematicCharacterController\Examples\Scripts\ExampleMovingPlatform.cs" />
     <Compile Include="Assets\Input\InputManager.cs" />
     <Compile Include="Assets\KinematicCharacterController\Examples\Scripts\PrefabLauncher.cs" />
     <Compile Include="Assets\Scripts\PlayerInteraction.cs" />
+    <Compile Include="Assets\Scripts\InventoryItemData.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\KinematicCharacterController\Core\IMoverController.cs" />
     <Compile Include="Assets\KinematicCharacterController\ExampleCharacter\Scripts\ExampleCharacterCamera.cs" />
     <Compile Include="Assets\Scripts\SteamManager.cs" />
+    <Compile Include="Assets\Scripts\Pause.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.dll" />

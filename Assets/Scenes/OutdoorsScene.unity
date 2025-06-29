@@ -6335,6 +6335,7 @@ MonoBehaviour:
   localPlayerController: {fileID: 0}
   privacyText: {fileID: 373019262}
   playerCount: {fileID: 1451888838}
+  minPlayers: 0
 --- !u!4 &2053489784
 Transform:
   m_ObjectHideFlags: 0

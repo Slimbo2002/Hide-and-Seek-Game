@@ -5,6 +5,10 @@ public class SeekerBehaviour : MonoBehaviour
     public Camera cam;
 
     // Update is called once per frame
+    private void Start()
+    {
+        GetComponent<PlayerMovement>().speed = 10f;
+    }
     void Update()
     {
         if (UserInputs.inputREF.attackInput)

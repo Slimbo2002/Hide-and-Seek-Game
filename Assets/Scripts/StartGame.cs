@@ -27,7 +27,7 @@ public class StartGame : MonoBehaviour, IInteractable
     }
     public void Interact()
     {
-        if (NetworkManager.gamePlayer.Count > 1)
+        if (NetworkManager.gamePlayer.Count > controller.minPlayers)
         {
             controller.StartGame("HouseMap");
         }

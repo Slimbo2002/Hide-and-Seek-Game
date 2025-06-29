@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class PlayerMovement : NetworkBehaviour
 {
     private Rigidbody rb;
-    public float speed = 5f;
+    public float speed;
     public float jumpForce = 5f;
     int maxJumps = 1;
     int jumps = 0;
@@ -17,7 +17,7 @@ public class PlayerMovement : NetworkBehaviour
 
     // Ground check
     public Transform groundCheck;
-    public float groundDistance = 0.1f;
+    public float groundDistance = 0.2f;
     public LayerMask groundMask;
 
     private bool groundedPlayer;
@@ -30,12 +30,19 @@ public class PlayerMovement : NetworkBehaviour
     {
         rb = GetComponent<Rigidbody>();
     }
-
+    private void Start()
+    {
+        speed = 8f;
+    }
     void Update()
     {
         if (!isOwned || gameObject == null) return;
 
-        Move();
+        if (!GetComponent<Pause>().isPaused)
+        {
+            Move();
+        }
+        
     }
 
     void Move()
@@ -83,7 +90,11 @@ public class PlayerMovement : NetworkBehaviour
 
         if (NetworkClient.ready)
         {
-            CmdMove(moveDirection);
+            if (!GetComponent<Pause>().isPaused)
+            {
+                CmdMove(moveDirection);
+            }
+            
         }
         
     }
